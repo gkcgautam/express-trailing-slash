@@ -1,0 +1,37 @@
+{
+  "name": "express-trailing-slash",
+  "version": "1.0.0",
+  "description": "Express middleware for redirecting URLs without trailing slash to the same URL with a trailing slash",
+  "main": "index.js",
+  "scripts": {
+    "lint": "node_modules/.bin/eslint ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkcgautam/express-trailing-slash.git"
+  },
+  "keywords": [
+    "express",
+    "trailing",
+    "slash",
+    "redirect",
+    "middleware",
+    "url",
+    "routing"
+  ],
+  "author": "Gautam Chaudhary <gautam@gautamchaudhary.com> (http://www.gautamchaudhary.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gkcgautam/express-trailing-slash/issues"
+  },
+  "homepage": "https://github.com/gkcgautam/express-trailing-slash#readme",
+  "devDependencies": {
+    "eslint": "5.0.0"
+  },
+  "dependencies": {
+    "lodash.isarray": "4.0.0",
+    "lodash.isobject": "3.0.2",
+    "lodash.some": "4.6.0"
+  }
+}
